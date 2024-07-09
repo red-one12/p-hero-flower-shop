@@ -31,7 +31,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url(/images/pngwing\ 6.png);
+    background-image: url(/images/pngwing\ 10.png);
     background-repeat: no-repeat;
     background-size: 420px;
     background-position: 85% bottom;
@@ -52,4 +52,187 @@
   header .content-div p{
     font-size: 18px;
     color: rgba(39, 39, 39, 0.600);
+  }
+
+
+
+  /* main starting....  */
+
+
+
+  /* featured-section starting...  */
+  .featured-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 110px;
+    text-align: center;
+    padding: 0px 100px;
+  }
+  .featured-section h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  .featured-section p{
+    width: 550px;
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.600);
+  }
+  .featured-section .flower-cards-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: lightsalmon; */
+    margin-top: 35px;
+  }
+  .featured-section .flower-cards-div .card{
+    height: 500px;
+    width: 370px;
+    /* background-color: lightgreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .featured-section .flower-cards-div .card div{
+    height: 92%;
+    width: 100%;
+    background-color: rgb(48, 173, 125);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+  }
+  .featured-section .flower-cards-div .card a{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+
+
+  /* free support section starting...  */
+
+  .free-support-seciton{
+    height: 320px;
+    background-color: rgba(39, 39, 39, 0.050);
+    margin: 150px 100px 100px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 100px;
+    border-radius: 8px;
+  }
+  .free-support-seciton .card{
+    text-align: center;
+  }
+
+
+
+  /* hot deal section starting...  */
+
+  .hot-deal-section{
+    height: 500px;
+    padding: 100px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  .hot-deal-section .text-div{
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .hot-deal-section .text-div h1{
+    font-size: 40px;
+  }
+  .hot-deal-section .text-div h1 span{
+    color: #E55473;
+  }
+  .hot-deal-section .text-div p{
+    font-size: 18px;
+  }
+
+
+
+  /* insta section starting...  */
+
+  .insta-section{
+    height: 530px;
+    padding: 0px 100px;
+    /* background-color: burlywood; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 120px 0px;
+  }
+  .insta-section .text-div{
+    width: 550px;
+  }
+  .insta-section .text-div h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .insta-section .text-div p{
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.600);
+  }
+  .insta-section .photo-div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /* background-color: #E55473; */
+  }
+
+
+
+  /* search-seciton starting...  */
+  .search-seciton{
+    height: 400px;
+    background-color: #E55473;
+    margin: 0px 100px;
+    border-radius: 8px;
+    background-image: url(/images/Rectangle\ 9.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .search-seciton h1{
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .search-seciton p{
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.600);
+  }
+  .search-seciton .input-div{
+    height: 60px;
+    width: 60%;
+    /* background-color: yellow; */
+  }
+  .search-seciton .input-div input{
+    height: 100%;
+    width: 75%;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0px 20px;
+    margin-right: 10px;
   }
