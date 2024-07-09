@@ -1,7 +1,55 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
+/* shared class */
+.lato{
+    font-family: "Lato", sans-serif;
+}
+.bg-light-color{
+    background-color: rgba(229, 84, 115, 0.100);
+}
+.btn{
+    padding: 20px 43px;
+    border-radius: 8px;
+    background-color: #E55473;
+    color: white;
+    border: none;
+}
+
+
+
+  /* header starting...  */
+  header{
+    padding: 100px 100px 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(/images/pngwing\ 6.png);
+    background-repeat: no-repeat;
+    background-size: 420px;
+    background-position: 85% bottom;
+  }
+  header .content-div{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 20px;
+    padding: 0px 0px 84px 0px;
+  }
+  header .content-div h1{
+    font-size: 80px;
+  }
+  header .content-div p{
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.600);
+  }
