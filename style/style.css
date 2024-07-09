@@ -236,3 +236,33 @@
     padding: 0px 20px;
     margin-right: 10px;
   }
+
+
+  /* footer starting...  */
+  footer{
+    color: white;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 110px;
+    text-align: center;
+    margin-top: 130px;
+  }
+  footer h1{
+    font-size: 48px;
+  }
+  footer h1 span{
+    color: #E55473;
+  }
+  footer .description{
+    font-size: 18px;
+    width: 600px;
+    text-align: center;
+  }
+  footer .last-line{
+    font-size: 16px;
+    color: rgba(39, 39, 39, 0.600);
+  }
